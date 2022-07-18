@@ -22,7 +22,8 @@ export default {
         addTask(){
             const task = {
                 id: new Date().getTime() * Math.random() * 100000,
-                name: this.todo
+                name: this.todo,
+                complete: false
             }
             this.$store.dispatch('addTask', task)
             this.todo = ''
