@@ -12,7 +12,7 @@ a {
 }
 
 .wrapper {
-    margin-top: 100px;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
 }
@@ -108,4 +108,8 @@ label {
 
 .completed {
     text-decoration: line-through;
+}
+
+h2{
+    margin-top: 50px;
 }
